@@ -4,8 +4,8 @@ import numpy as np
 import cv2
 from PIL import Image
 
-MODEL_PATH = r"Model\32x3-CNN.keras"
-HOME_IMAGE = r"Images\Banner.jpg"
+MODEL_PATH = "Model/32x3-CNN.keras"
+HOME_IMAGE = "Images/Banner.jpg"
 CATEGORIES = ['Dog', 'Cat']
 
 st.set_page_config(
